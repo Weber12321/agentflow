@@ -1,6 +1,7 @@
 from .base import BaseAgent
 from state.state import State
 
+
 class Planner(BaseAgent):
     def __init__(self, llm_model="gpt-3.5-turbo", temperature=0.7, tools=None):
         super().__init__()
